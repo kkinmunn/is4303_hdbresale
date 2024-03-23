@@ -1,4 +1,0 @@
-dataset/hdb_latest_raw.csv filter=lfs diff=lfs merge=lfs -text
-points_of_interest.csv filter=lfs diff=lfs merge=lfs -text
-hdb_last15_merged.csv filter=lfs diff=lfs merge=lfs -text
-hdb_last15_cleaned.csv filter=lfs diff=lfs merge=lfs -text
