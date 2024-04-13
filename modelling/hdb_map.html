@@ -1,0 +1,1895 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b51fad568a17315d336a0b4ba1214505 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b51fad568a17315d336a0b4ba1214505" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b51fad568a17315d336a0b4ba1214505 = L.map(
+                "map_b51fad568a17315d336a0b4ba1214505",
+                {
+                    center: [1.35618204494608, 103.957616315285],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_aaa8115e386b776b986b1a915ea9f560 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_aaa8115e386b776b986b1a915ea9f560.addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var marker_7b40e8667b1a1f1ab38eef034e1595f9 = L.marker(
+                [1.35618204494608, 103.957616315285],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_e2db0f68b7844649798dbc751804565b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_7b40e8667b1a1f1ab38eef034e1595f9.setIcon(icon_e2db0f68b7844649798dbc751804565b);
+        
+    
+        var popup_9f6540ff9c2ce3f46983c319488c525b = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_b3150eb8075d849bf9a23a102b40d752 = $(`<div id="html_b3150eb8075d849bf9a23a102b40d752" style="width: 100.0%; height: 100.0%;">Predicted Price: 530000.0<br>Actual Price: 530000.0</div>`)[0];
+                popup_9f6540ff9c2ce3f46983c319488c525b.setContent(html_b3150eb8075d849bf9a23a102b40d752);
+            
+        
+
+        marker_7b40e8667b1a1f1ab38eef034e1595f9.bindPopup(popup_9f6540ff9c2ce3f46983c319488c525b)
+        ;
+
+        
+    
+    
+            marker_7b40e8667b1a1f1ab38eef034e1595f9.bindTooltip(
+                `<div>
+                     Selected HDB Unit
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a4dee86f477c30824c17e1e495de4e87 = L.marker(
+                [1.3531079, 103.9403612],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_9d4f014f8269e4e652ba4e704b1cb95b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-city", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a4dee86f477c30824c17e1e495de4e87.setIcon(icon_9d4f014f8269e4e652ba4e704b1cb95b);
+        
+    
+        var popup_7afbc03a89d281dfaead03eef35e9eaf = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_d40f5313ae9364ea6c8bd5590fb4e741 = $(`<div id="html_d40f5313ae9364ea6c8bd5590fb4e741" style="width: 100.0%; height: 100.0%;">Tampines Hub</div>`)[0];
+                popup_7afbc03a89d281dfaead03eef35e9eaf.setContent(html_d40f5313ae9364ea6c8bd5590fb4e741);
+            
+        
+
+        marker_a4dee86f477c30824c17e1e495de4e87.bindPopup(popup_7afbc03a89d281dfaead03eef35e9eaf)
+        ;
+
+        
+    
+    
+            marker_a4dee86f477c30824c17e1e495de4e87.bindTooltip(
+                `<div>
+                     Recreational
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_496cb4ffe99fd5b6e4c1ae6d7a776204 = L.marker(
+                [1.3605239, 103.9531662],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_6775800f76b72eb3b9bde7cd5b166520 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-city", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_496cb4ffe99fd5b6e4c1ae6d7a776204.setIcon(icon_6775800f76b72eb3b9bde7cd5b166520);
+        
+    
+        var popup_9a44ca53725cb596b45a76ba3ef9e5b0 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_e7a237befe0730819f817852686c3393 = $(`<div id="html_e7a237befe0730819f817852686c3393" style="width: 100.0%; height: 100.0%;">N4 Neighbourhood Centre</div>`)[0];
+                popup_9a44ca53725cb596b45a76ba3ef9e5b0.setContent(html_e7a237befe0730819f817852686c3393);
+            
+        
+
+        marker_496cb4ffe99fd5b6e4c1ae6d7a776204.bindPopup(popup_9a44ca53725cb596b45a76ba3ef9e5b0)
+        ;
+
+        
+    
+    
+            marker_496cb4ffe99fd5b6e4c1ae6d7a776204.bindTooltip(
+                `<div>
+                     Recreational
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a6ccadb8d324019556e49995f97fe2ea = L.marker(
+                [1.3556772, 103.9452237],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_f1dcb9a7d08603f795b3743138012ebc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-city", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a6ccadb8d324019556e49995f97fe2ea.setIcon(icon_f1dcb9a7d08603f795b3743138012ebc);
+        
+    
+        var popup_101017de344236d08ce379d7ba6a1b7c = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_9b1d90c18712766f046079461f44f962 = $(`<div id="html_9b1d90c18712766f046079461f44f962" style="width: 100.0%; height: 100.0%;">Tampines Central Shopping Street</div>`)[0];
+                popup_101017de344236d08ce379d7ba6a1b7c.setContent(html_9b1d90c18712766f046079461f44f962);
+            
+        
+
+        marker_a6ccadb8d324019556e49995f97fe2ea.bindPopup(popup_101017de344236d08ce379d7ba6a1b7c)
+        ;
+
+        
+    
+    
+            marker_a6ccadb8d324019556e49995f97fe2ea.bindTooltip(
+                `<div>
+                     Recreational
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25dbe9def7b1bc49e0930074baab2b19 = L.marker(
+                [1.3527441999999998, 103.953689],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_18e4452b54b01f7213a8ab1493e3da6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-city", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_25dbe9def7b1bc49e0930074baab2b19.setIcon(icon_18e4452b54b01f7213a8ab1493e3da6b);
+        
+    
+        var popup_6869a139ce9cb3b2991c309df8f0f05c = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_10ff4ee4f5acccf255f35a5481041dfd = $(`<div id="html_10ff4ee4f5acccf255f35a5481041dfd" style="width: 100.0%; height: 100.0%;">Tampines N2 Shopping Street</div>`)[0];
+                popup_6869a139ce9cb3b2991c309df8f0f05c.setContent(html_10ff4ee4f5acccf255f35a5481041dfd);
+            
+        
+
+        marker_25dbe9def7b1bc49e0930074baab2b19.bindPopup(popup_6869a139ce9cb3b2991c309df8f0f05c)
+        ;
+
+        
+    
+    
+            marker_25dbe9def7b1bc49e0930074baab2b19.bindTooltip(
+                `<div>
+                     Recreational
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a7d000c4f6b3e2bc6d46caaa302067ba = L.marker(
+                [1.3524927, 103.9438027],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_9eb83b5becbf65bf7749e98984c05aa9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-city", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a7d000c4f6b3e2bc6d46caaa302067ba.setIcon(icon_9eb83b5becbf65bf7749e98984c05aa9);
+        
+    
+        var popup_c9cba3196d819bbe13022536dabfe7a6 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_be5f24c11dd3763e01672041a50726b7 = $(`<div id="html_be5f24c11dd3763e01672041a50726b7" style="width: 100.0%; height: 100.0%;">Purity Haven</div>`)[0];
+                popup_c9cba3196d819bbe13022536dabfe7a6.setContent(html_be5f24c11dd3763e01672041a50726b7);
+            
+        
+
+        marker_a7d000c4f6b3e2bc6d46caaa302067ba.bindPopup(popup_c9cba3196d819bbe13022536dabfe7a6)
+        ;
+
+        
+    
+    
+            marker_a7d000c4f6b3e2bc6d46caaa302067ba.bindTooltip(
+                `<div>
+                     Recreational
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_184a76e7e1d769c202c8633b13dbfae0 = L.marker(
+                [1.3541097, 103.9403594],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_3a4b8c1cac98ef75d21f038a8f82ef48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-city", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_184a76e7e1d769c202c8633b13dbfae0.setIcon(icon_3a4b8c1cac98ef75d21f038a8f82ef48);
+        
+    
+        var popup_8c9258f995bdfdbd8951ec9e01d33dda = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_798ee56bc89ade4bf0c3e635966290b0 = $(`<div id="html_798ee56bc89ade4bf0c3e635966290b0" style="width: 100.0%; height: 100.0%;">Our Tampines Hub (North Plaza Entrance</div>`)[0];
+                popup_8c9258f995bdfdbd8951ec9e01d33dda.setContent(html_798ee56bc89ade4bf0c3e635966290b0);
+            
+        
+
+        marker_184a76e7e1d769c202c8633b13dbfae0.bindPopup(popup_8c9258f995bdfdbd8951ec9e01d33dda)
+        ;
+
+        
+    
+    
+            marker_184a76e7e1d769c202c8633b13dbfae0.bindTooltip(
+                `<div>
+                     Recreational
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06fd1907a3ed00017b899ca6f9f5db70 = L.marker(
+                [1.3432366000000002, 103.9536521],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_6d0f59141a6e7a3adf8ba133930fd3d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house-medical", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_06fd1907a3ed00017b899ca6f9f5db70.setIcon(icon_6d0f59141a6e7a3adf8ba133930fd3d0);
+        
+    
+        var popup_3888a71791592ea0f306ffaac1db3f0f = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_013f50068c9fd7fb9e55bc929529b85c = $(`<div id="html_013f50068c9fd7fb9e55bc929529b85c" style="width: 100.0%; height: 100.0%;">Simei Medical Centre</div>`)[0];
+                popup_3888a71791592ea0f306ffaac1db3f0f.setContent(html_013f50068c9fd7fb9e55bc929529b85c);
+            
+        
+
+        marker_06fd1907a3ed00017b899ca6f9f5db70.bindPopup(popup_3888a71791592ea0f306ffaac1db3f0f)
+        ;
+
+        
+    
+    
+            marker_06fd1907a3ed00017b899ca6f9f5db70.bindTooltip(
+                `<div>
+                     Healthcare
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60839b94faf56aa25c0c2f261b65c6bc = L.marker(
+                [1.3535108, 103.9584973],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_fd0b208a6d60f02ef74af910b7027049 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house-medical", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_60839b94faf56aa25c0c2f261b65c6bc.setIcon(icon_fd0b208a6d60f02ef74af910b7027049);
+        
+    
+        var popup_b5c3cbd1074ceb593c1be9d6226b5aea = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_5e18b17f67a6ad10c5faf79b6ba4e251 = $(`<div id="html_5e18b17f67a6ad10c5faf79b6ba4e251" style="width: 100.0%; height: 100.0%;">Neptune Healthcare Medical and Surgery</div>`)[0];
+                popup_b5c3cbd1074ceb593c1be9d6226b5aea.setContent(html_5e18b17f67a6ad10c5faf79b6ba4e251);
+            
+        
+
+        marker_60839b94faf56aa25c0c2f261b65c6bc.bindPopup(popup_b5c3cbd1074ceb593c1be9d6226b5aea)
+        ;
+
+        
+    
+    
+            marker_60839b94faf56aa25c0c2f261b65c6bc.bindTooltip(
+                `<div>
+                     Healthcare
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8ebff75dd6924709a7c46f90c0601a3d = L.marker(
+                [1.368442, 103.957359],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_3f0ecdd1c8db49bbf66366bb69dab305 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house-medical", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8ebff75dd6924709a7c46f90c0601a3d.setIcon(icon_3f0ecdd1c8db49bbf66366bb69dab305);
+        
+    
+        var popup_e2232ab6a9e1c52ada5368f7655c6763 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_a1850b3314649150782a26c9f05304cf = $(`<div id="html_a1850b3314649150782a26c9f05304cf" style="width: 100.0%; height: 100.0%;">Fire Post</div>`)[0];
+                popup_e2232ab6a9e1c52ada5368f7655c6763.setContent(html_a1850b3314649150782a26c9f05304cf);
+            
+        
+
+        marker_8ebff75dd6924709a7c46f90c0601a3d.bindPopup(popup_e2232ab6a9e1c52ada5368f7655c6763)
+        ;
+
+        
+    
+    
+            marker_8ebff75dd6924709a7c46f90c0601a3d.bindTooltip(
+                `<div>
+                     Healthcare
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c3aa1056f1b6898fd463402a8f880dc7 = L.marker(
+                [1.3598358999999998, 103.9535112],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_c940c20ae30f802c318efca95407f4dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house-medical", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c3aa1056f1b6898fd463402a8f880dc7.setIcon(icon_c940c20ae30f802c318efca95407f4dc);
+        
+    
+        var popup_7ca676c07430c572d60dcd683a042a0e = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_2b13ecd56c797d0eed3ad08abc51baac = $(`<div id="html_2b13ecd56c797d0eed3ad08abc51baac" style="width: 100.0%; height: 100.0%;">AcuHealth TCM Medical Centre</div>`)[0];
+                popup_7ca676c07430c572d60dcd683a042a0e.setContent(html_2b13ecd56c797d0eed3ad08abc51baac);
+            
+        
+
+        marker_c3aa1056f1b6898fd463402a8f880dc7.bindPopup(popup_7ca676c07430c572d60dcd683a042a0e)
+        ;
+
+        
+    
+    
+            marker_c3aa1056f1b6898fd463402a8f880dc7.bindTooltip(
+                `<div>
+                     Healthcare
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8f51756987209e8a091c137c21ace824 = L.marker(
+                [1.3554003, 103.9451369],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_bc7a5a3b991d3bbb80ded10558de13fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house-medical", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8f51756987209e8a091c137c21ace824.setIcon(icon_bc7a5a3b991d3bbb80ded10558de13fb);
+        
+    
+        var popup_31fb081b020fe0bd38e1a0dc1d9d5dff = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_016d03f247290e78a8b8f63f1cd0b308 = $(`<div id="html_016d03f247290e78a8b8f63f1cd0b308" style="width: 100.0%; height: 100.0%;">Ruby Medical Centre Pte. Ltd.</div>`)[0];
+                popup_31fb081b020fe0bd38e1a0dc1d9d5dff.setContent(html_016d03f247290e78a8b8f63f1cd0b308);
+            
+        
+
+        marker_8f51756987209e8a091c137c21ace824.bindPopup(popup_31fb081b020fe0bd38e1a0dc1d9d5dff)
+        ;
+
+        
+    
+    
+            marker_8f51756987209e8a091c137c21ace824.bindTooltip(
+                `<div>
+                     Healthcare
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d910d8f19a0192e076789b33f20cb3af = L.marker(
+                [1.358415, 103.969151],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_e6912a586cb106fff71780b5a8ef5474 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house-medical", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d910d8f19a0192e076789b33f20cb3af.setIcon(icon_e6912a586cb106fff71780b5a8ef5474);
+        
+    
+        var popup_0e1d3b3d8463ba7df96509f5a5a57a15 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_cdd5c548e2e88a2fba653c9ee0ae81ea = $(`<div id="html_cdd5c548e2e88a2fba653c9ee0ae81ea" style="width: 100.0%; height: 100.0%;">SGH</div>`)[0];
+                popup_0e1d3b3d8463ba7df96509f5a5a57a15.setContent(html_cdd5c548e2e88a2fba653c9ee0ae81ea);
+            
+        
+
+        marker_d910d8f19a0192e076789b33f20cb3af.bindPopup(popup_0e1d3b3d8463ba7df96509f5a5a57a15)
+        ;
+
+        
+    
+    
+            marker_d910d8f19a0192e076789b33f20cb3af.bindTooltip(
+                `<div>
+                     Healthcare
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5990b120baab3ca756c7dcb5e35cf908 = L.marker(
+                [1.3531422, 103.9421835],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_8b88bd0bdb263b4ac801ca43a3788345 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house-medical", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5990b120baab3ca756c7dcb5e35cf908.setIcon(icon_8b88bd0bdb263b4ac801ca43a3788345);
+        
+    
+        var popup_7d9fb7c3e4e424b920a8f6ebb0368cc9 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_5dbb8694ab6deef88b4bbf30a0055cb1 = $(`<div id="html_5dbb8694ab6deef88b4bbf30a0055cb1" style="width: 100.0%; height: 100.0%;">SATA Commhealth Tampines Medical Centre</div>`)[0];
+                popup_7d9fb7c3e4e424b920a8f6ebb0368cc9.setContent(html_5dbb8694ab6deef88b4bbf30a0055cb1);
+            
+        
+
+        marker_5990b120baab3ca756c7dcb5e35cf908.bindPopup(popup_7d9fb7c3e4e424b920a8f6ebb0368cc9)
+        ;
+
+        
+    
+    
+            marker_5990b120baab3ca756c7dcb5e35cf908.bindTooltip(
+                `<div>
+                     Healthcare
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_543ce61ee372fc57fdfa1c0e1115b0c2 = L.marker(
+                [1.3410062, 103.9485168],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_51134ad1d700a04a2ac5f0964c2f4074 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house-medical", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_543ce61ee372fc57fdfa1c0e1115b0c2.setIcon(icon_51134ad1d700a04a2ac5f0964c2f4074);
+        
+    
+        var popup_41b0a9147121e3a6e1a2edd2f1783356 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_7a6473c501c5f01737fc31268861c5ef = $(`<div id="html_7a6473c501c5f01737fc31268861c5ef" style="width: 100.0%; height: 100.0%;">The Integrated Building CGH</div>`)[0];
+                popup_41b0a9147121e3a6e1a2edd2f1783356.setContent(html_7a6473c501c5f01737fc31268861c5ef);
+            
+        
+
+        marker_543ce61ee372fc57fdfa1c0e1115b0c2.bindPopup(popup_41b0a9147121e3a6e1a2edd2f1783356)
+        ;
+
+        
+    
+    
+            marker_543ce61ee372fc57fdfa1c0e1115b0c2.bindTooltip(
+                `<div>
+                     Healthcare
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f48aa97d8b988f1ccdb1831e987d3c50 = L.marker(
+                [1.34368, 103.956804],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_002dad4d16c78778c32814a2eee042b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house-medical", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f48aa97d8b988f1ccdb1831e987d3c50.setIcon(icon_002dad4d16c78778c32814a2eee042b5);
+        
+    
+        var popup_362e7dac62eb8ddf00942778502105ab = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_33e2638882c56695f9fd0a8b0cc3d63b = $(`<div id="html_33e2638882c56695f9fd0a8b0cc3d63b" style="width: 100.0%; height: 100.0%;">Citizens Ambulance & Services Pte. Ltd.</div>`)[0];
+                popup_362e7dac62eb8ddf00942778502105ab.setContent(html_33e2638882c56695f9fd0a8b0cc3d63b);
+            
+        
+
+        marker_f48aa97d8b988f1ccdb1831e987d3c50.bindPopup(popup_362e7dac62eb8ddf00942778502105ab)
+        ;
+
+        
+    
+    
+            marker_f48aa97d8b988f1ccdb1831e987d3c50.bindTooltip(
+                `<div>
+                     Healthcare
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9e734accf8d65e03afdfd04c1d0c447 = L.marker(
+                [1.3417436000000005, 103.9489198],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_221038791a1d5b20da8fc2ff10112fd0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house-medical", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f9e734accf8d65e03afdfd04c1d0c447.setIcon(icon_221038791a1d5b20da8fc2ff10112fd0);
+        
+    
+        var popup_f9f31ab661f318e69f76e941685efc5b = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_0a344f82752b9cc82098703745033a53 = $(`<div id="html_0a344f82752b9cc82098703745033a53" style="width: 100.0%; height: 100.0%;">St. Andrew's Community Hospital</div>`)[0];
+                popup_f9f31ab661f318e69f76e941685efc5b.setContent(html_0a344f82752b9cc82098703745033a53);
+            
+        
+
+        marker_f9e734accf8d65e03afdfd04c1d0c447.bindPopup(popup_f9f31ab661f318e69f76e941685efc5b)
+        ;
+
+        
+    
+    
+            marker_f9e734accf8d65e03afdfd04c1d0c447.bindTooltip(
+                `<div>
+                     Healthcare
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82793163862a1e40731ed9c46e840009 = L.marker(
+                [1.339887, 103.9500225],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_82a5e85d9b2cf0ffcc439c140cba5020 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house-medical", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_82793163862a1e40731ed9c46e840009.setIcon(icon_82a5e85d9b2cf0ffcc439c140cba5020);
+        
+    
+        var popup_f8d242db0d58bfdefe7cb7a6219b2a2d = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_5752646816c43193c40912019915bbb0 = $(`<div id="html_5752646816c43193c40912019915bbb0" style="width: 100.0%; height: 100.0%;">Changi Medical Centre Pharmacy</div>`)[0];
+                popup_f8d242db0d58bfdefe7cb7a6219b2a2d.setContent(html_5752646816c43193c40912019915bbb0);
+            
+        
+
+        marker_82793163862a1e40731ed9c46e840009.bindPopup(popup_f8d242db0d58bfdefe7cb7a6219b2a2d)
+        ;
+
+        
+    
+    
+            marker_82793163862a1e40731ed9c46e840009.bindTooltip(
+                `<div>
+                     Healthcare
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b551f7c5df5fbb75a4dd9dfd78deb31 = L.marker(
+                [1.353279, 103.9418625],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_e716e4d866747ac83e52c72924369a6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house-medical", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3b551f7c5df5fbb75a4dd9dfd78deb31.setIcon(icon_e716e4d866747ac83e52c72924369a6f);
+        
+    
+        var popup_bc699f0bed871d1034248f681681ccff = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_6927174ab75a854f61702329286b8cfb = $(`<div id="html_6927174ab75a854f61702329286b8cfb" style="width: 100.0%; height: 100.0%;">Clearskin Medical Spa Pte Ltd</div>`)[0];
+                popup_bc699f0bed871d1034248f681681ccff.setContent(html_6927174ab75a854f61702329286b8cfb);
+            
+        
+
+        marker_3b551f7c5df5fbb75a4dd9dfd78deb31.bindPopup(popup_bc699f0bed871d1034248f681681ccff)
+        ;
+
+        
+    
+    
+            marker_3b551f7c5df5fbb75a4dd9dfd78deb31.bindTooltip(
+                `<div>
+                     Healthcare
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4ac2460e17bacd9f705088021d2f636 = L.marker(
+                [1.3540008999999995, 103.9614204],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_67fda7a3ecd79dda1e085835145842b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house-medical", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d4ac2460e17bacd9f705088021d2f636.setIcon(icon_67fda7a3ecd79dda1e085835145842b2);
+        
+    
+        var popup_e5a72625e9974efb1826e735f9d04cb1 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_7f9e14253016f2525efdf06757752769 = $(`<div id="html_7f9e14253016f2525efdf06757752769" style="width: 100.0%; height: 100.0%;">Neptune Dental Group Tampines</div>`)[0];
+                popup_e5a72625e9974efb1826e735f9d04cb1.setContent(html_7f9e14253016f2525efdf06757752769);
+            
+        
+
+        marker_d4ac2460e17bacd9f705088021d2f636.bindPopup(popup_e5a72625e9974efb1826e735f9d04cb1)
+        ;
+
+        
+    
+    
+            marker_d4ac2460e17bacd9f705088021d2f636.bindTooltip(
+                `<div>
+                     Healthcare
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4833d4b136f65b4f2eae1d436444b034 = L.marker(
+                [1.3675302, 103.9492665],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_55bb0d042226e7f5dce4e42580e24a4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "school", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_4833d4b136f65b4f2eae1d436444b034.setIcon(icon_55bb0d042226e7f5dce4e42580e24a4f);
+        
+    
+        var popup_5c1be09fc7ed7dba8e047bc66fcd710c = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_7187f8c3708d2648887d78fd2ab37d9e = $(`<div id="html_7187f8c3708d2648887d78fd2ab37d9e" style="width: 100.0%; height: 100.0%;">Meridian Secondary School</div>`)[0];
+                popup_5c1be09fc7ed7dba8e047bc66fcd710c.setContent(html_7187f8c3708d2648887d78fd2ab37d9e);
+            
+        
+
+        marker_4833d4b136f65b4f2eae1d436444b034.bindPopup(popup_5c1be09fc7ed7dba8e047bc66fcd710c)
+        ;
+
+        
+    
+    
+            marker_4833d4b136f65b4f2eae1d436444b034.bindTooltip(
+                `<div>
+                     Education
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f53e8693540009e536d5bb20a94d1c07 = L.marker(
+                [1.3542893, 103.9568201],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_94c84f27357c5238a8f2f031316f254c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "school", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f53e8693540009e536d5bb20a94d1c07.setIcon(icon_94c84f27357c5238a8f2f031316f254c);
+        
+    
+        var popup_43e39c000ac0c69d45b9181ffc58efeb = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_0936566291fa873da69e071ae94f4d75 = $(`<div id="html_0936566291fa873da69e071ae94f4d75" style="width: 100.0%; height: 100.0%;">Ngee Ann Secondary School</div>`)[0];
+                popup_43e39c000ac0c69d45b9181ffc58efeb.setContent(html_0936566291fa873da69e071ae94f4d75);
+            
+        
+
+        marker_f53e8693540009e536d5bb20a94d1c07.bindPopup(popup_43e39c000ac0c69d45b9181ffc58efeb)
+        ;
+
+        
+    
+    
+            marker_f53e8693540009e536d5bb20a94d1c07.bindTooltip(
+                `<div>
+                     Education
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fdee3ef0cc6342021b54c7f10537b53f = L.marker(
+                [1.3465957, 103.9449515],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_d2a9c82cf64e21a865de94ddaef8554c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house-medical", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fdee3ef0cc6342021b54c7f10537b53f.setIcon(icon_d2a9c82cf64e21a865de94ddaef8554c);
+        
+    
+        var popup_e50a609b0db4ed18c9fa2ec060c30c33 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_474c9722efe28092e3d79b4a12bc3af0 = $(`<div id="html_474c9722efe28092e3d79b4a12bc3af0" style="width: 100.0%; height: 100.0%;">Oralcare Dental Surgeons</div>`)[0];
+                popup_e50a609b0db4ed18c9fa2ec060c30c33.setContent(html_474c9722efe28092e3d79b4a12bc3af0);
+            
+        
+
+        marker_fdee3ef0cc6342021b54c7f10537b53f.bindPopup(popup_e50a609b0db4ed18c9fa2ec060c30c33)
+        ;
+
+        
+    
+    
+            marker_fdee3ef0cc6342021b54c7f10537b53f.bindTooltip(
+                `<div>
+                     Healthcare
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b2792b4d60fd54e263a2cf9f97c742aa = L.marker(
+                [1.3452115, 103.9453591],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_85ee401a3a28bb8e0f31205c1ece4250 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house-medical", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b2792b4d60fd54e263a2cf9f97c742aa.setIcon(icon_85ee401a3a28bb8e0f31205c1ece4250);
+        
+    
+        var popup_0c93c3ed720fe8c8ef2fc5216dac0b9b = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_57500e3cf61ccb42ecca669bfd175a18 = $(`<div id="html_57500e3cf61ccb42ecca669bfd175a18" style="width: 100.0%; height: 100.0%;">Pure Dental - Tampines</div>`)[0];
+                popup_0c93c3ed720fe8c8ef2fc5216dac0b9b.setContent(html_57500e3cf61ccb42ecca669bfd175a18);
+            
+        
+
+        marker_b2792b4d60fd54e263a2cf9f97c742aa.bindPopup(popup_0c93c3ed720fe8c8ef2fc5216dac0b9b)
+        ;
+
+        
+    
+    
+            marker_b2792b4d60fd54e263a2cf9f97c742aa.bindTooltip(
+                `<div>
+                     Healthcare
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd0a4617e7ed13ba747c2e041e9eeab6 = L.marker(
+                [1.3530909, 103.9427236],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_c1836670a6f99958608ed7b4189b5dfe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house-medical", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fd0a4617e7ed13ba747c2e041e9eeab6.setIcon(icon_c1836670a6f99958608ed7b4189b5dfe);
+        
+    
+        var popup_26f97786281564ac724071605b80b485 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_a8770a800c0a80527016294300da6fc7 = $(`<div id="html_a8770a800c0a80527016294300da6fc7" style="width: 100.0%; height: 100.0%;">Luminous Dental (Tampines Plaza) - Invisalign & Dental Implants in SG</div>`)[0];
+                popup_26f97786281564ac724071605b80b485.setContent(html_a8770a800c0a80527016294300da6fc7);
+            
+        
+
+        marker_fd0a4617e7ed13ba747c2e041e9eeab6.bindPopup(popup_26f97786281564ac724071605b80b485)
+        ;
+
+        
+    
+    
+            marker_fd0a4617e7ed13ba747c2e041e9eeab6.bindTooltip(
+                `<div>
+                     Healthcare
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e5491673e9d5eb3cc7b97a1070b0b96 = L.marker(
+                [1.352608, 103.953559],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_0dbb2f2bdec92bc9b7045016908767c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house-medical", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3e5491673e9d5eb3cc7b97a1070b0b96.setIcon(icon_0dbb2f2bdec92bc9b7045016908767c4);
+        
+    
+        var popup_9201091148b3e0beb10ec875fb74108e = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_9fb53625b616c793356c12c0cfc463dc = $(`<div id="html_9fb53625b616c793356c12c0cfc463dc" style="width: 100.0%; height: 100.0%;">Friends Dental Surgeons</div>`)[0];
+                popup_9201091148b3e0beb10ec875fb74108e.setContent(html_9fb53625b616c793356c12c0cfc463dc);
+            
+        
+
+        marker_3e5491673e9d5eb3cc7b97a1070b0b96.bindPopup(popup_9201091148b3e0beb10ec875fb74108e)
+        ;
+
+        
+    
+    
+            marker_3e5491673e9d5eb3cc7b97a1070b0b96.bindTooltip(
+                `<div>
+                     Healthcare
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dfa408df23d791ed90bccef0adea0aa7 = L.marker(
+                [1.3401915, 103.9495701],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_507e511054de151b027616bee3ccdcba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house-medical", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_dfa408df23d791ed90bccef0adea0aa7.setIcon(icon_507e511054de151b027616bee3ccdcba);
+        
+    
+        var popup_75c897a4132bbef0d6f011b715128e9f = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_34b7e672104b2aa635b714af9c43c8a5 = $(`<div id="html_34b7e672104b2aa635b714af9c43c8a5" style="width: 100.0%; height: 100.0%;">Changi General Hospital</div>`)[0];
+                popup_75c897a4132bbef0d6f011b715128e9f.setContent(html_34b7e672104b2aa635b714af9c43c8a5);
+            
+        
+
+        marker_dfa408df23d791ed90bccef0adea0aa7.bindPopup(popup_75c897a4132bbef0d6f011b715128e9f)
+        ;
+
+        
+    
+    
+            marker_dfa408df23d791ed90bccef0adea0aa7.bindTooltip(
+                `<div>
+                     Healthcare
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82e56ae07bff4eaedc9b0e5a2e825033 = L.marker(
+                [1.3723308, 103.9498495],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_d8e32e19fb75c82a9c3ba228b7996e08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-city", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_82e56ae07bff4eaedc9b0e5a2e825033.setIcon(icon_d8e32e19fb75c82a9c3ba228b7996e08);
+        
+    
+        var popup_ae5e25c8d6bf38c4d23e9d2b82cad861 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_8709f33a000c5cece3ebb536bbcd73ed = $(`<div id="html_8709f33a000c5cece3ebb536bbcd73ed" style="width: 100.0%; height: 100.0%;">Pasir Ris Public Library</div>`)[0];
+                popup_ae5e25c8d6bf38c4d23e9d2b82cad861.setContent(html_8709f33a000c5cece3ebb536bbcd73ed);
+            
+        
+
+        marker_82e56ae07bff4eaedc9b0e5a2e825033.bindPopup(popup_ae5e25c8d6bf38c4d23e9d2b82cad861)
+        ;
+
+        
+    
+    
+            marker_82e56ae07bff4eaedc9b0e5a2e825033.bindTooltip(
+                `<div>
+                     Recreational
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c775b6d635523b3b9c3436fcecbde2d3 = L.marker(
+                [1.3529604, 103.9403451],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_819191f1762d6a5eba79812df2a66158 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-city", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c775b6d635523b3b9c3436fcecbde2d3.setIcon(icon_819191f1762d6a5eba79812df2a66158);
+        
+    
+        var popup_9013590fc41cd81403c0b9f787379bef = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_68b53fd4161f70f2ab975d5216c4368c = $(`<div id="html_68b53fd4161f70f2ab975d5216c4368c" style="width: 100.0%; height: 100.0%;">Our Tampines Hub</div>`)[0];
+                popup_9013590fc41cd81403c0b9f787379bef.setContent(html_68b53fd4161f70f2ab975d5216c4368c);
+            
+        
+
+        marker_c775b6d635523b3b9c3436fcecbde2d3.bindPopup(popup_9013590fc41cd81403c0b9f787379bef)
+        ;
+
+        
+    
+    
+            marker_c775b6d635523b3b9c3436fcecbde2d3.bindTooltip(
+                `<div>
+                     Recreational
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0dfb85261e48070baba1db1afa1341bd = L.marker(
+                [1.3725402, 103.9517213],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_08657c7c466ab76373a6aaaceaaca114 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-city", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_0dfb85261e48070baba1db1afa1341bd.setIcon(icon_08657c7c466ab76373a6aaaceaaca114);
+        
+    
+        var popup_ce2264f414e8088033ac709f30ff6a40 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_49f3613dda87441e4a1449145bd86452 = $(`<div id="html_49f3613dda87441e4a1449145bd86452" style="width: 100.0%; height: 100.0%;">Pasir Ris Town Park</div>`)[0];
+                popup_ce2264f414e8088033ac709f30ff6a40.setContent(html_49f3613dda87441e4a1449145bd86452);
+            
+        
+
+        marker_0dfb85261e48070baba1db1afa1341bd.bindPopup(popup_ce2264f414e8088033ac709f30ff6a40)
+        ;
+
+        
+    
+    
+            marker_0dfb85261e48070baba1db1afa1341bd.bindTooltip(
+                `<div>
+                     Recreational
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b30be2be120a74c8d7d42012438e1229 = L.marker(
+                [1.3405395, 103.9524481],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_126c6e01eeb5cc861ac914fec655aec7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "school", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b30be2be120a74c8d7d42012438e1229.setIcon(icon_126c6e01eeb5cc861ac914fec655aec7);
+        
+    
+        var popup_fee8146af89758db303b5cda64c9b5aa = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_f9b5c75c0309bbca481d972cabc8da37 = $(`<div id="html_f9b5c75c0309bbca481d972cabc8da37" style="width: 100.0%; height: 100.0%;">Changkat Primary School</div>`)[0];
+                popup_fee8146af89758db303b5cda64c9b5aa.setContent(html_f9b5c75c0309bbca481d972cabc8da37);
+            
+        
+
+        marker_b30be2be120a74c8d7d42012438e1229.bindPopup(popup_fee8146af89758db303b5cda64c9b5aa)
+        ;
+
+        
+    
+    
+            marker_b30be2be120a74c8d7d42012438e1229.bindTooltip(
+                `<div>
+                     Education
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f94797734cac594f2c420d36ad3f718e = L.marker(
+                [1.360298, 103.948581],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_16b450efac10b1781fc64c250a8c3949 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "school", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f94797734cac594f2c420d36ad3f718e.setIcon(icon_16b450efac10b1781fc64c250a8c3949);
+        
+    
+        var popup_e0ac3e34a4c53c2cbc542d402dbc3f38 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_c4d7dbdaa7cf82af4f54ce769e6b5b4f = $(`<div id="html_c4d7dbdaa7cf82af4f54ce769e6b5b4f" style="width: 100.0%; height: 100.0%;">Tampines North Primary School</div>`)[0];
+                popup_e0ac3e34a4c53c2cbc542d402dbc3f38.setContent(html_c4d7dbdaa7cf82af4f54ce769e6b5b4f);
+            
+        
+
+        marker_f94797734cac594f2c420d36ad3f718e.bindPopup(popup_e0ac3e34a4c53c2cbc542d402dbc3f38)
+        ;
+
+        
+    
+    
+            marker_f94797734cac594f2c420d36ad3f718e.bindTooltip(
+                `<div>
+                     Education
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c14d116615c667b54500f49fb5151daf = L.marker(
+                [1.372403, 103.9629666],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_7da980186d10557d9bcea2b94c9d4f10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "school", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c14d116615c667b54500f49fb5151daf.setIcon(icon_7da980186d10557d9bcea2b94c9d4f10);
+        
+    
+        var popup_3204fb1a1bd3c466f82ad9a86a774fa0 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_1f1b309756806f123f76ca790e07f0e4 = $(`<div id="html_1f1b309756806f123f76ca790e07f0e4" style="width: 100.0%; height: 100.0%;">Pasir Ris Primary School</div>`)[0];
+                popup_3204fb1a1bd3c466f82ad9a86a774fa0.setContent(html_1f1b309756806f123f76ca790e07f0e4);
+            
+        
+
+        marker_c14d116615c667b54500f49fb5151daf.bindPopup(popup_3204fb1a1bd3c466f82ad9a86a774fa0)
+        ;
+
+        
+    
+    
+            marker_c14d116615c667b54500f49fb5151daf.bindTooltip(
+                `<div>
+                     Education
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e17d9705cc51982847f61921b30caa0 = L.marker(
+                [1.3542843, 103.9608654],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_f044d530c3555e3b23c9afd7f1330c58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "school", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1e17d9705cc51982847f61921b30caa0.setIcon(icon_f044d530c3555e3b23c9afd7f1330c58);
+        
+    
+        var popup_a4421b93b0554ce2847a4e5811a4341f = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_98c31b53ec205805effc14f899519e46 = $(`<div id="html_98c31b53ec205805effc14f899519e46" style="width: 100.0%; height: 100.0%;">PlayFACTO School @ Tampines (Student Care & Enrichment)</div>`)[0];
+                popup_a4421b93b0554ce2847a4e5811a4341f.setContent(html_98c31b53ec205805effc14f899519e46);
+            
+        
+
+        marker_1e17d9705cc51982847f61921b30caa0.bindPopup(popup_a4421b93b0554ce2847a4e5811a4341f)
+        ;
+
+        
+    
+    
+            marker_1e17d9705cc51982847f61921b30caa0.bindTooltip(
+                `<div>
+                     Education
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b8c951b1ef03374a1fd4e81b2b8924e = L.marker(
+                [1.352687, 103.9429503],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_f6c0160c0f296fe3a660037b4ccdb89b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "school", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8b8c951b1ef03374a1fd4e81b2b8924e.setIcon(icon_f6c0160c0f296fe3a660037b4ccdb89b);
+        
+    
+        var popup_4c388ea42d9a834646aaccc292db7e6c = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_80df3e89f49330517991f4efe728dd7d = $(`<div id="html_80df3e89f49330517991f4efe728dd7d" style="width: 100.0%; height: 100.0%;">MindChamps Chinese PreSchool @ Tampines Central</div>`)[0];
+                popup_4c388ea42d9a834646aaccc292db7e6c.setContent(html_80df3e89f49330517991f4efe728dd7d);
+            
+        
+
+        marker_8b8c951b1ef03374a1fd4e81b2b8924e.bindPopup(popup_4c388ea42d9a834646aaccc292db7e6c)
+        ;
+
+        
+    
+    
+            marker_8b8c951b1ef03374a1fd4e81b2b8924e.bindTooltip(
+                `<div>
+                     Education
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0942c6f32639a8cccdf2b9a598b63db0 = L.marker(
+                [1.3610555, 103.9559258],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_2ad67938728ff5fa904160497a95c121 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "school", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_0942c6f32639a8cccdf2b9a598b63db0.setIcon(icon_2ad67938728ff5fa904160497a95c121);
+        
+    
+        var popup_5046c56c206e36c7140d99a08a7005dd = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_c171add7abc30fb813be3639aa9f31a8 = $(`<div id="html_c171add7abc30fb813be3639aa9f31a8" style="width: 100.0%; height: 100.0%;">Dunman Secondary School</div>`)[0];
+                popup_5046c56c206e36c7140d99a08a7005dd.setContent(html_c171add7abc30fb813be3639aa9f31a8);
+            
+        
+
+        marker_0942c6f32639a8cccdf2b9a598b63db0.bindPopup(popup_5046c56c206e36c7140d99a08a7005dd)
+        ;
+
+        
+    
+    
+            marker_0942c6f32639a8cccdf2b9a598b63db0.bindTooltip(
+                `<div>
+                     Education
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_21f03b9740cccee722f36e622abec291 = L.marker(
+                [1.3568208000000002, 103.9607517],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_27d1e288b8652a2a270925cde7bd2bac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "school", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_21f03b9740cccee722f36e622abec291.setIcon(icon_27d1e288b8652a2a270925cde7bd2bac);
+        
+    
+        var popup_0cd7fdd149ea15744e0b988175204512 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_28ad770244e3fa942524d22b6074c019 = $(`<div id="html_28ad770244e3fa942524d22b6074c019" style="width: 100.0%; height: 100.0%;">East Spring Secondary School</div>`)[0];
+                popup_0cd7fdd149ea15744e0b988175204512.setContent(html_28ad770244e3fa942524d22b6074c019);
+            
+        
+
+        marker_21f03b9740cccee722f36e622abec291.bindPopup(popup_0cd7fdd149ea15744e0b988175204512)
+        ;
+
+        
+    
+    
+            marker_21f03b9740cccee722f36e622abec291.bindTooltip(
+                `<div>
+                     Education
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b8571afa27063b6b2f9851f1598ff7e = L.marker(
+                [1.3501419, 103.9444883],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_ef0273feda3ec921415b84fdf6bbe205 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "school", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1b8571afa27063b6b2f9851f1598ff7e.setIcon(icon_ef0273feda3ec921415b84fdf6bbe205);
+        
+    
+        var popup_d69378dde3b0271c5b1ea8cff920fee5 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_04304e6b91b8b6415da08d44477abfa7 = $(`<div id="html_04304e6b91b8b6415da08d44477abfa7" style="width: 100.0%; height: 100.0%;">Tampines Secondary School</div>`)[0];
+                popup_d69378dde3b0271c5b1ea8cff920fee5.setContent(html_04304e6b91b8b6415da08d44477abfa7);
+            
+        
+
+        marker_1b8571afa27063b6b2f9851f1598ff7e.bindPopup(popup_d69378dde3b0271c5b1ea8cff920fee5)
+        ;
+
+        
+    
+    
+            marker_1b8571afa27063b6b2f9851f1598ff7e.bindTooltip(
+                `<div>
+                     Education
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d32d13fa32bfd6040eac54993e8a1af = L.marker(
+                [1.3668644, 103.9568413],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_7cbd1510273833df54483d066a289ee3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "school", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8d32d13fa32bfd6040eac54993e8a1af.setIcon(icon_7cbd1510273833df54483d066a289ee3);
+        
+    
+        var popup_ff9e99f506f245fba5e177047391168b = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_d87ee40d2ba84b215cf5f0badddcb8aa = $(`<div id="html_d87ee40d2ba84b215cf5f0badddcb8aa" style="width: 100.0%; height: 100.0%;">Loyang View Secondary School</div>`)[0];
+                popup_ff9e99f506f245fba5e177047391168b.setContent(html_d87ee40d2ba84b215cf5f0badddcb8aa);
+            
+        
+
+        marker_8d32d13fa32bfd6040eac54993e8a1af.bindPopup(popup_ff9e99f506f245fba5e177047391168b)
+        ;
+
+        
+    
+    
+            marker_8d32d13fa32bfd6040eac54993e8a1af.bindTooltip(
+                `<div>
+                     Education
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71d330d4b85a4f49e0ebf332234b6fb5 = L.marker(
+                [1.354757, 103.948533],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_71077760a9acb16ada9e8084a33e7175 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "school", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_71d330d4b85a4f49e0ebf332234b6fb5.setIcon(icon_71077760a9acb16ada9e8084a33e7175);
+        
+    
+        var popup_db1fa27f642b000695694c9b6a3064db = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_12d3aeabc4f28d7c18a6a89c5e284ec5 = $(`<div id="html_12d3aeabc4f28d7c18a6a89c5e284ec5" style="width: 100.0%; height: 100.0%;">Pasir Ris Secondary School</div>`)[0];
+                popup_db1fa27f642b000695694c9b6a3064db.setContent(html_12d3aeabc4f28d7c18a6a89c5e284ec5);
+            
+        
+
+        marker_71d330d4b85a4f49e0ebf332234b6fb5.bindPopup(popup_db1fa27f642b000695694c9b6a3064db)
+        ;
+
+        
+    
+    
+            marker_71d330d4b85a4f49e0ebf332234b6fb5.bindTooltip(
+                `<div>
+                     Education
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a2cfa3b1c95deb08977493f2fb299fb = L.marker(
+                [1.3728817, 103.959416],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_c9c4c26ce425ac480f7f67df7b33d296 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "school", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8a2cfa3b1c95deb08977493f2fb299fb.setIcon(icon_c9c4c26ce425ac480f7f67df7b33d296);
+        
+    
+        var popup_db685544fb26733229aaae742ad70ed4 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_cd95c0df274c7d773fadb67ac5f064f1 = $(`<div id="html_cd95c0df274c7d773fadb67ac5f064f1" style="width: 100.0%; height: 100.0%;">Pasir Ris Crest Secondary School</div>`)[0];
+                popup_db685544fb26733229aaae742ad70ed4.setContent(html_cd95c0df274c7d773fadb67ac5f064f1);
+            
+        
+
+        marker_8a2cfa3b1c95deb08977493f2fb299fb.bindPopup(popup_db685544fb26733229aaae742ad70ed4)
+        ;
+
+        
+    
+    
+            marker_8a2cfa3b1c95deb08977493f2fb299fb.bindTooltip(
+                `<div>
+                     Education
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_272bfe02f8f864295a2e55a90a650f93 = L.marker(
+                [1.3410275, 103.9528325],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_6c3c0b4a30a420f208fc3004bc7b3b0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "school", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_272bfe02f8f864295a2e55a90a650f93.setIcon(icon_6c3c0b4a30a420f208fc3004bc7b3b0b);
+        
+    
+        var popup_51a53ff9f924727e2c5e3e9fb189d121 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_15fa35e8e92d4591546be650d4eeb114 = $(`<div id="html_15fa35e8e92d4591546be650d4eeb114" style="width: 100.0%; height: 100.0%;">Changkat Changi Secondary School</div>`)[0];
+                popup_51a53ff9f924727e2c5e3e9fb189d121.setContent(html_15fa35e8e92d4591546be650d4eeb114);
+            
+        
+
+        marker_272bfe02f8f864295a2e55a90a650f93.bindPopup(popup_51a53ff9f924727e2c5e3e9fb189d121)
+        ;
+
+        
+    
+    
+            marker_272bfe02f8f864295a2e55a90a650f93.bindTooltip(
+                `<div>
+                     Education
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_74946cad3a9066a8633c4b9d687441a2 = L.marker(
+                [1.3524936, 103.9447179],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_40a5c5ac5426b9484b145a1ab6945375 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-city", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_74946cad3a9066a8633c4b9d687441a2.setIcon(icon_40a5c5ac5426b9484b145a1ab6945375);
+        
+    
+        var popup_2f8707a70f451c6889d1252cd12d5cba = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_4777bea84feba09112ca81154478e240 = $(`<div id="html_4777bea84feba09112ca81154478e240" style="width: 100.0%; height: 100.0%;">Tampines Mall</div>`)[0];
+                popup_2f8707a70f451c6889d1252cd12d5cba.setContent(html_4777bea84feba09112ca81154478e240);
+            
+        
+
+        marker_74946cad3a9066a8633c4b9d687441a2.bindPopup(popup_2f8707a70f451c6889d1252cd12d5cba)
+        ;
+
+        
+    
+    
+            marker_74946cad3a9066a8633c4b9d687441a2.bindTooltip(
+                `<div>
+                     Recreational
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3045162abf0da103d477a9f64db8884f = L.marker(
+                [1.3427145, 103.9530415],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_e2ced5675cf9c168728c7fc00b95fdcc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-city", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_3045162abf0da103d477a9f64db8884f.setIcon(icon_e2ced5675cf9c168728c7fc00b95fdcc);
+        
+    
+        var popup_1c742e3681d6d1f0a11f106349f73a45 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_5eb24f3568f05cc9c100dff28476527d = $(`<div id="html_5eb24f3568f05cc9c100dff28476527d" style="width: 100.0%; height: 100.0%;">Eastpoint Mall</div>`)[0];
+                popup_1c742e3681d6d1f0a11f106349f73a45.setContent(html_5eb24f3568f05cc9c100dff28476527d);
+            
+        
+
+        marker_3045162abf0da103d477a9f64db8884f.bindPopup(popup_1c742e3681d6d1f0a11f106349f73a45)
+        ;
+
+        
+    
+    
+            marker_3045162abf0da103d477a9f64db8884f.bindTooltip(
+                `<div>
+                     Recreational
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d86bb488d85e47adb9061b3f99fa72f8 = L.marker(
+                [1.3523888000000002, 103.9438567],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_5ede65a26c597d2806745ed78709d2af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-city", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_d86bb488d85e47adb9061b3f99fa72f8.setIcon(icon_5ede65a26c597d2806745ed78709d2af);
+        
+    
+        var popup_b74b63e7542526965bed8fa17fb14200 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_68b77a4ffd0733c42c75f144de69e20e = $(`<div id="html_68b77a4ffd0733c42c75f144de69e20e" style="width: 100.0%; height: 100.0%;">Century Square</div>`)[0];
+                popup_b74b63e7542526965bed8fa17fb14200.setContent(html_68b77a4ffd0733c42c75f144de69e20e);
+            
+        
+
+        marker_d86bb488d85e47adb9061b3f99fa72f8.bindPopup(popup_b74b63e7542526965bed8fa17fb14200)
+        ;
+
+        
+    
+    
+            marker_d86bb488d85e47adb9061b3f99fa72f8.bindTooltip(
+                `<div>
+                     Recreational
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3fb91182172bb36c67c484ef54e39c7d = L.marker(
+                [1.354212, 103.9450352],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_760af625682b8c362e33f7985e528561 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-city", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_3fb91182172bb36c67c484ef54e39c7d.setIcon(icon_760af625682b8c362e33f7985e528561);
+        
+    
+        var popup_aed2f0d877b89436f015d567d0160490 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_0794df4b83cef0f7c8d05457aa2e6b43 = $(`<div id="html_0794df4b83cef0f7c8d05457aa2e6b43" style="width: 100.0%; height: 100.0%;">Tampines 1</div>`)[0];
+                popup_aed2f0d877b89436f015d567d0160490.setContent(html_0794df4b83cef0f7c8d05457aa2e6b43);
+            
+        
+
+        marker_3fb91182172bb36c67c484ef54e39c7d.bindPopup(popup_aed2f0d877b89436f015d567d0160490)
+        ;
+
+        
+    
+    
+            marker_3fb91182172bb36c67c484ef54e39c7d.bindTooltip(
+                `<div>
+                     Recreational
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34fae038e64fa13d501ef662d8b90a71 = L.marker(
+                [1.3544642, 103.9600116],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_48b89eb3725df6bce5874343be2fa5f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-city", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_34fae038e64fa13d501ef662d8b90a71.setIcon(icon_48b89eb3725df6bce5874343be2fa5f1);
+        
+    
+        var popup_6e4037d4f53bc7b54da5d480c9d3dd9e = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_e65ccd3f8cd3112a653df05876ce2e83 = $(`<div id="html_e65ccd3f8cd3112a653df05876ce2e83" style="width: 100.0%; height: 100.0%;">Tampines Mart</div>`)[0];
+                popup_6e4037d4f53bc7b54da5d480c9d3dd9e.setContent(html_e65ccd3f8cd3112a653df05876ce2e83);
+            
+        
+
+        marker_34fae038e64fa13d501ef662d8b90a71.bindPopup(popup_6e4037d4f53bc7b54da5d480c9d3dd9e)
+        ;
+
+        
+    
+    
+            marker_34fae038e64fa13d501ef662d8b90a71.bindTooltip(
+                `<div>
+                     Recreational
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b56c478185b1de07c8abb5907277034 = L.marker(
+                [1.3670428999999995, 103.9644334],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_039a27862d4231c37a4f10887ea7302f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-city", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_0b56c478185b1de07c8abb5907277034.setIcon(icon_039a27862d4231c37a4f10887ea7302f);
+        
+    
+        var popup_762ae9a18e0f5f2e42a00a531414eeb1 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_72b7745158ab22035eb95d718da7a3b8 = $(`<div id="html_72b7745158ab22035eb95d718da7a3b8" style="width: 100.0%; height: 100.0%;">Loyang Point</div>`)[0];
+                popup_762ae9a18e0f5f2e42a00a531414eeb1.setContent(html_72b7745158ab22035eb95d718da7a3b8);
+            
+        
+
+        marker_0b56c478185b1de07c8abb5907277034.bindPopup(popup_762ae9a18e0f5f2e42a00a531414eeb1)
+        ;
+
+        
+    
+    
+            marker_0b56c478185b1de07c8abb5907277034.bindTooltip(
+                `<div>
+                     Recreational
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f49ab3723331fe7eac64fd8b94e5b7fc = L.marker(
+                [1.3637756, 103.9481856],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_8b56e2701facd902453c2abfef861413 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-city", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_f49ab3723331fe7eac64fd8b94e5b7fc.setIcon(icon_8b56e2701facd902453c2abfef861413);
+        
+    
+        var popup_63a37f728a23db817dabd0b4df7f96bc = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_976588f6641e5b0c3d0746642f4a63d2 = $(`<div id="html_976588f6641e5b0c3d0746642f4a63d2" style="width: 100.0%; height: 100.0%;">Tampines Eco Green</div>`)[0];
+                popup_63a37f728a23db817dabd0b4df7f96bc.setContent(html_976588f6641e5b0c3d0746642f4a63d2);
+            
+        
+
+        marker_f49ab3723331fe7eac64fd8b94e5b7fc.bindPopup(popup_63a37f728a23db817dabd0b4df7f96bc)
+        ;
+
+        
+    
+    
+            marker_f49ab3723331fe7eac64fd8b94e5b7fc.bindTooltip(
+                `<div>
+                     Recreational
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_553d787ff0822db7570e75b3f7e570b7 = L.marker(
+                [1.3462518, 103.9662165],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_260be053e997403a9e3711e2b7c5b04b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "school", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_553d787ff0822db7570e75b3f7e570b7.setIcon(icon_260be053e997403a9e3711e2b7c5b04b);
+        
+    
+        var popup_044b2227037618091027a4e528952a98 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_3b5164242d7bd7aa892b38b73663eff5 = $(`<div id="html_3b5164242d7bd7aa892b38b73663eff5" style="width: 100.0%; height: 100.0%;">Singapore CAE Flight Training (SCFT)</div>`)[0];
+                popup_044b2227037618091027a4e528952a98.setContent(html_3b5164242d7bd7aa892b38b73663eff5);
+            
+        
+
+        marker_553d787ff0822db7570e75b3f7e570b7.bindPopup(popup_044b2227037618091027a4e528952a98)
+        ;
+
+        
+    
+    
+            marker_553d787ff0822db7570e75b3f7e570b7.bindTooltip(
+                `<div>
+                     Education
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c795da329c338929fb9e06ee085f336 = L.marker(
+                [1.3405942, 103.9631268],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_e5e5995613a265bb421ed282d35b04d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "school", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_3c795da329c338929fb9e06ee085f336.setIcon(icon_e5e5995613a265bb421ed282d35b04d6);
+        
+    
+        var popup_c8131c0c627d1f148ea8fdfd6e1eda92 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_5d26e08c73fa69dc583d0ea456881db7 = $(`<div id="html_5d26e08c73fa69dc583d0ea456881db7" style="width: 100.0%; height: 100.0%;">Singapore University of Technology and Design</div>`)[0];
+                popup_c8131c0c627d1f148ea8fdfd6e1eda92.setContent(html_5d26e08c73fa69dc583d0ea456881db7);
+            
+        
+
+        marker_3c795da329c338929fb9e06ee085f336.bindPopup(popup_c8131c0c627d1f148ea8fdfd6e1eda92)
+        ;
+
+        
+    
+    
+            marker_3c795da329c338929fb9e06ee085f336.bindTooltip(
+                `<div>
+                     Education
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a0cf6fcdb67d7fdc9b8d2da264024cb0 = L.marker(
+                [1.3529604, 103.9403451],
+                {}
+            ).addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+    
+            var icon_5924b37c7fc5867a38264adc027f4f75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-city", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a0cf6fcdb67d7fdc9b8d2da264024cb0.setIcon(icon_5924b37c7fc5867a38264adc027f4f75);
+        
+    
+        var popup_d22160410205992044a2bd9d91c21f92 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_df98a30345e017355bd33d3e324fab74 = $(`<div id="html_df98a30345e017355bd33d3e324fab74" style="width: 100.0%; height: 100.0%;">Tampines Hub KFC</div>`)[0];
+                popup_d22160410205992044a2bd9d91c21f92.setContent(html_df98a30345e017355bd33d3e324fab74);
+            
+        
+
+        marker_a0cf6fcdb67d7fdc9b8d2da264024cb0.bindPopup(popup_d22160410205992044a2bd9d91c21f92)
+        ;
+
+        
+    
+    
+            marker_a0cf6fcdb67d7fdc9b8d2da264024cb0.bindTooltip(
+                `<div>
+                     Recreational
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            tile_layer_aaa8115e386b776b986b1a915ea9f560.addTo(map_b51fad568a17315d336a0b4ba1214505);
+        
+</script>
+</html>
